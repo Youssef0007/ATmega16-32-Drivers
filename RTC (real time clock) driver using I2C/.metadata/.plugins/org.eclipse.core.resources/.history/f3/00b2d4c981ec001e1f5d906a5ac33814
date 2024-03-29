@@ -1,0 +1,25 @@
+/*
+ * RTC_Inter.h
+ *
+ *  Created on: Mar 27, 2024
+ *      Author: Sigma
+ */
+
+#ifndef RTC_INTER_H_
+#define RTC_INTER_H_
+#include "I2C_Driver/I2C_Interface.h"
+#include "RTC_Config.h"
+#include "RTC_Private.h"
+
+#define RTC_SLAVE_ADDRESS_WRITE  0xD0
+#define RTC_SLAVE_ADDRESS_READ	 0xD1
+
+#define _24_Mode	0
+#define _12_Mode	1
+
+#define AM			0
+#define PM			1
+
+
+
+#endif /* RTC_INTER_H_ */

@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: Mar 27, 2024
+ *      Author: Sigma
+ */
+
+
+#include "RTC_Inter.h"
+#include "LCD_Interface.h"
+
+
+void main (void)
+{
+	Date_And_Time Current_Date_And_Time={0,10,12,5,10,6,24};
+	RTC_Init();
+	H_Lcd_Void_LCDInit();
+ while(1)
+ {
+
+ }
+}

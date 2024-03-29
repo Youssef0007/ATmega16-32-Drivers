@@ -1,0 +1,107 @@
+/*
+ * RTC_Prog.c
+ *
+ *  Created on: Mar 27, 2024
+ *      Author: Sigma
+ */
+
+
+#include "I2C_Driver/I2C_Interface.h"
+#define RTC_SLAVE_ADDRESS_WRITE  0xD0
+#define RTC_SLAVE_ADDRESS_READ	 0xD1
+
+#define _24_Mode	0
+#define _12_Mode	1
+
+#define AM			0
+#define PM			1
+
+#define PM_OR_AM	AM
+
+#define _12_or_24_MODE		_24_Mode
+
+typedef struct {
+	 u8 sec ;
+	 u8 min ;
+	 u8 hours ;
+	 u8 day ;  /*01>>07*/
+	 u8 date; /*01>>31*/
+	 u8 month;
+	 u8 year;
+}Date_And_Time;
+
+Date_And_Time Current_Date_And_Time={0,10,12,5,10,6,24};
+
+Date_And_Time Get_Time_And_Date=0;/*empty struct to get the current date and time from RTC*/
+/*initiate the I2C driver with 100khz*/
+void RTC_Init()
+{
+	M_Void_I2C_Init();
+}
+void RTC_Set_Time(Date_And_Time *Config_Date)
+{
+	M_U8_I2C_Start();/*send the start bit*/
+	/*send the slave address and write bit*/
+	M_U8_I2C_SendSlaveAddressWithWrite(RTC_SLAVE_ADDRESS_WRITE);
+	/*write the first address in RTC to write the seconds*/
+	M_U8_I2C_Write(0x00);
+	/*send the seconds and the CH bit is cleared*/
+		/*send the units of seconds in the least 4 bits then the tens seconds in the higher 4 bits   */
+	M_U8_I2C_Write((((Config_Date -> sec / 10) << 4)|((Config_Date -> sec) % 10)) & (~(1<<7)));
+
+	/*send the units of mins in the least 4 bits then the tens mins in the higher 4 bits   */
+	M_U8_I2C_Write(((Config_Date -> min / 10) << 4)|((Config_Date -> min) % 10));
+#if (_12_or_24_MODE == _12_Mode && PM_OR_AM == AM)
+	/*send the units of hours in the least 4 bits then the tens hours in the higher 4 bits  ++  set the 6th bit for the 12 hours mode and clear the 5th bit for AM */
+		M_U8_I2C_Write((((Config_Date -> hours / 10) << 4)|((Config_Date -> hours) % 10) | (1<<6))&(~(1<<5)));
+#elif (_12_or_24_MODE == _12_Mode && PM_OR_AM == PM)
+		/*send the units of hours in the least 4 bits then the tens hours in the higher 4 bits  ++  set the 6th bit for the 12 hours mode and the 5th bit for PM */
+		M_U8_I2C_Write((((Config_Date -> hours / 10) << 4)|((Config_Date -> hours) % 10) | (1<<6))| ((1<<5)));
+#elif _12_or_24_MODE == _24_Mode
+		/*send the units of hours in the least 4 bits then the tens hours in the higher 4 bits  ++  clear the 6th bit for the 24 hours mode*/
+	    M_U8_I2C_Write((((Config_Date -> hours / 10) << 4)|((Config_Date -> hours) % 10)) &(~(1<<6)));
+#endif
+
+}
+
+
+void RTC_Set_Date(Date_And_Time *Config_Date)
+{
+	M_U8_I2C_Start();/*send the start bit*/
+	/*send the slave address and write bit*/
+	M_U8_I2C_SendSlaveAddressWithWrite(RTC_SLAVE_ADDRESS_WRITE);
+	/*write the first address in RTC to write the day*/
+	M_U8_I2C_Write(0x03);
+		/*send the units of seconds in the least 4 bits then the tens seconds in the higher 4 bits   */
+	M_U8_I2C_Write(Config_Date -> day);
+
+	/*send the units of date in the least 4 bits then the tens date in the higher 4 bits   */
+	M_U8_I2C_Write(((Config_Date -> date / 10) << 4)|((Config_Date -> date) % 10));
+	/*send the units of month in the least 4 bits then the tens month in the higher 4 bits   */
+	M_U8_I2C_Write(((Config_Date -> month / 10) << 4)|((Config_Date -> month) % 10));
+	/*send the units of year in the least 4 bits then the tens year in the higher 4 bits   */
+	M_U8_I2C_Write(((Config_Date -> year / 10) << 4)|((Config_Date -> year) % 10));
+
+}
+
+void RTC_Get_Time(Date_And_Time *Get_Time_And_Date)
+{
+	u8 temp_sec =0;
+	u8 temp_min =0;
+	u8 temp_hours =0;
+
+	M_U8_I2C_Start();/*send the start bit*/
+	/*send the slave address and write bit*/
+	M_U8_I2C_SendSlaveAddressWithWrite(RTC_SLAVE_ADDRESS_WRITE);
+	/*write the first address in RTC to write the day*/
+	M_U8_I2C_Write(0x00);
+	M_U8_I2C_Repeated_Start();
+	/*send the slave address and read bit*/
+	M_U8_I2C_SendSlaveAddressWithRead(RTC_SLAVE_ADDRESS_READ);
+	temp_sec = M_U8_I2C_SendSlaveAddressWithRead(0x00);
+	Get_Time_And_Date -> sec = (temp_sec &0x0F)
+
+	Get_Time_And_Date -> min = M_U8_I2C_SendSlaveAddressWithRead(0x01);
+	Get_Time_And_Date -> hours = M_U8_I2C_SendSlaveAddressWithRead(0x02);
+
+}

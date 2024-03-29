@@ -1,0 +1,18 @@
+/*
+ * main.c
+ *
+ *  Created on: Mar 27, 2024
+ *      Author: Sigma
+ */
+
+
+#include "RTC_Inter.h"
+
+
+void main (void)
+{
+ while(1)
+ {
+
+ }
+}

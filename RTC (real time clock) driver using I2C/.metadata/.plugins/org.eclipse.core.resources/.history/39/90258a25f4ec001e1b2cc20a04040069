@@ -1,0 +1,20 @@
+/*******************************************************************************************
+ *
+ * Module: RTC (Real Time Clock)
+ *
+ * File Name: RTC_Private.h
+ *
+ * Description: Private header file for the RTC driver
+ *
+ * Author: Youssef Abdelaziz
+
+ *
+ * *******************************************************************************************/
+
+
+#ifndef RTC_PRIVATE_H_
+#define RTC_PRIVATE_H_
+
+
+
+#endif /* RTC_PRIVATE_H_ */

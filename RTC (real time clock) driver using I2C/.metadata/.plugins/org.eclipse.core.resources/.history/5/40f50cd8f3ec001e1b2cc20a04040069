@@ -1,0 +1,16 @@
+/*
+ * RTC_Config.h
+ *
+ *  Created on: Mar 27, 2024
+ *      Author: Sigma
+ */
+
+#ifndef RTC_CONFIG_H_
+#define RTC_CONFIG_H_
+
+#define PM_OR_AM	AM
+
+#define _12_or_24_MODE		_24_Mode
+
+
+#endif /* RTC_CONFIG_H_ */

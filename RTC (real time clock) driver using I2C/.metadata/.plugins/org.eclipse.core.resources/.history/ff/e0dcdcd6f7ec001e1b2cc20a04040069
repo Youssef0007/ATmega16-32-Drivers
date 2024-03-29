@@ -1,0 +1,53 @@
+/*
+ * main.c
+ *
+ *  Created on: Mar 27, 2024
+ *      Author: Sigma
+ */
+
+
+#include "RTC_Inter.h"
+#include "LCD_Interface.h"
+
+
+int main(void)
+{
+	u8 day_str[3];
+	Date_And_Time Current_Date_And_Time={35,44,12,6,8,12,24};
+	Date_And_Time Get_Date_Time;
+	RTC_Init();
+	H_Lcd_Void_LCDInit();
+	H_Lcd_Void_LCDClear();
+	RTC_Set_Time(&Current_Date_And_Time);
+	RTC_Set_Date(&Current_Date_And_Time);
+
+	RTC_Get_Time(&Get_Date_Time);
+	RTC_Get_Date(&Get_Date_Time);
+
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.hours);
+	H_Lcd_Void_LCDWriteCharacter(':');
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.min);
+	H_Lcd_Void_LCDWriteCharacter(':');
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.sec);
+	H_Lcd_Void_LCDGoTo(1,0);
+	//H_Lcd_Void_LCDWriteNumber(Get_Date_Time.date);
+	switch (Get_Date_Time.date)
+	case 0:
+	H_Lcd_Void_LCDWriteString('STR');
+	break;
+	case 1:
+	H_Lcd_Void_LCDWriteString('SUN');
+	break;
+	H_Lcd_Void_LCDWriteCharacter(' ');
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.day);
+	H_Lcd_Void_LCDWriteCharacter('/');
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.month);
+	H_Lcd_Void_LCDWriteCharacter('/');
+	H_Lcd_Void_LCDWriteNumber(20);
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.year);
+ while(1)
+ {
+
+ }
+ return 0;
+}

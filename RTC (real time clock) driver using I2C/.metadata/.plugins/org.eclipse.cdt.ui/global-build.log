@@ -1,0 +1,3090 @@
+23:46:24 **** Build of configuration Debug for project RTC ****
+make all 
+Building file: ../I2C_Driver/I2C_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"I2C_Driver/I2C_Prog.d" -MT"I2C_Driver/I2C_Prog.o" -c -o "I2C_Driver/I2C_Prog.o" "../I2C_Driver/I2C_Prog.c"
+In file included from ../I2C_Driver/I2C_Prog.c:9:
+../I2C_Driver/I2C_Private.h:11:17: error: STD.h: No such file or directory
+../I2C_Driver/I2C_Private.h:12:21: error: BITMATH.h: No such file or directory
+In file included from ../I2C_Driver/I2C_Prog.c:10:
+../I2C_Driver/I2C_Interface.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Start'
+../I2C_Driver/I2C_Interface.h:17: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_SendSlaveAddressWithWrite'
+../I2C_Driver/I2C_Interface.h:18: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Repeated_Start'
+../I2C_Driver/I2C_Interface.h:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_SendSlaveAddressWithRead'
+../I2C_Driver/I2C_Interface.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Write'
+../I2C_Driver/I2C_Interface.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_ReadWithAck'
+../I2C_Driver/I2C_Interface.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_ReadWithNack'
+../I2C_Driver/I2C_Prog.c:11:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+../I2C_Driver/I2C_Prog.c: In function 'M_Void_I2C_Init':
+../I2C_Driver/I2C_Prog.c:16: error: expected ')' before 'u8'
+../I2C_Driver/I2C_Prog.c:16: warning: type defaults to 'int' in declaration of 'type name'
+../I2C_Driver/I2C_Prog.c:16: error: invalid type argument of 'unary *' (have 'int')
+../I2C_Driver/I2C_Prog.c:16: error: expected ')' before 'u8'
+../I2C_Driver/I2C_Prog.c:16: warning: type defaults to 'int' in declaration of 'type name'
+../I2C_Driver/I2C_Prog.c:16: error: invalid type argument of 'unary *' (have 'int')
+../I2C_Driver/I2C_Prog.c: At top level:
+../I2C_Driver/I2C_Prog.c:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Start'
+../I2C_Driver/I2C_Prog.c:29: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_SendSlaveAddressWithWrite'
+../I2C_Driver/I2C_Prog.c:48: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Repeated_Start'
+../I2C_Driver/I2C_Prog.c:59: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_SendSlaveAddressWithRead'
+../I2C_Driver/I2C_Prog.c:74: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Write'
+../I2C_Driver/I2C_Prog.c:87: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_ReadWithAck'
+../I2C_Driver/I2C_Prog.c:92: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_ReadWithNack'
+../I2C_Driver/I2C_Prog.c: In function 'M_Void_I2C_STOP':
+../I2C_Driver/I2C_Prog.c:98: error: expected ')' before 'u8'
+../I2C_Driver/I2C_Prog.c:98: warning: type defaults to 'int' in declaration of 'type name'
+../I2C_Driver/I2C_Prog.c:98: error: invalid type argument of 'unary *' (have 'int')
+../I2C_Driver/I2C_Prog.c:99: error: expected ')' before 'u8'
+../I2C_Driver/I2C_Prog.c:99: warning: type defaults to 'int' in declaration of 'type name'
+../I2C_Driver/I2C_Prog.c:99: error: invalid type argument of 'unary *' (have 'int')
+make: *** [I2C_Driver/I2C_Prog.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:47:20 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../I2C_Driver/I2C_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"I2C_Driver/I2C_Prog.d" -MT"I2C_Driver/I2C_Prog.o" -c -o "I2C_Driver/I2C_Prog.o" "../I2C_Driver/I2C_Prog.c"
+In file included from ../I2C_Driver/I2C_Prog.c:9:
+../I2C_Driver/I2C_Private.h:11:17: error: STD.h: No such file or directory
+../I2C_Driver/I2C_Private.h:12:21: error: BITMATH.h: No such file or directory
+../I2C_Driver/I2C_Prog.c:11:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+make: *** [I2C_Driver/I2C_Prog.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:47:38 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../I2C_Driver/I2C_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"I2C_Driver/I2C_Prog.d" -MT"I2C_Driver/I2C_Prog.o" -c -o "I2C_Driver/I2C_Prog.o" "../I2C_Driver/I2C_Prog.c"
+../I2C_Driver/I2C_Prog.c:11:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+Finished building: ../I2C_Driver/I2C_Prog.c
+ 
+Building file: ../Keypad_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Keypad_Prog.d" -MT"Keypad_Prog.o" -c -o "Keypad_Prog.o" "../Keypad_Prog.c"
+In file included from ../Keypad_Prog.c:12:
+../Keypad_Interface.h:10:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+../Keypad_Interface.h:14:27: error: DIO_Interface.h: No such file or directory
+In file included from ../Keypad_Interface.h:15,
+                 from ../Keypad_Prog.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../Keypad_Prog.c:12:
+../Keypad_Interface.h:27: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'H_KeyPad_U8_KeyPadRead'
+../Keypad_Prog.c: In function 'H_KeyPad_Void_KeyPadInit':
+../Keypad_Prog.c:26: warning: implicit declaration of function 'M_DIO_Void_SetPinDirection'
+../Keypad_Prog.c:26: error: 'PC5_PIN' undeclared (first use in this function)
+../Keypad_Prog.c:26: error: (Each undeclared identifier is reported only once
+../Keypad_Prog.c:26: error: for each function it appears in.)
+../Keypad_Prog.c:26: error: 'OUTPUT' undeclared (first use in this function)
+../Keypad_Prog.c:27: error: 'PC4_PIN' undeclared (first use in this function)
+../Keypad_Prog.c:28: error: 'PC3_PIN' undeclared (first use in this function)
+../Keypad_Prog.c:33: warning: implicit declaration of function 'M_DIO_Void_SetPinValue'
+../Keypad_Prog.c:33: error: 'HIGH' undeclared (first use in this function)
+../Keypad_Prog.c:38: error: 'PD7_PIN' undeclared (first use in this function)
+../Keypad_Prog.c:38: error: 'INPUT' undeclared (first use in this function)
+../Keypad_Prog.c:39: error: 'PD6_PIN' undeclared (first use in this function)
+../Keypad_Prog.c:40: error: 'PD5_PIN' undeclared (first use in this function)
+../Keypad_Prog.c:41: error: 'PD3_PIN' undeclared (first use in this function)
+../Keypad_Prog.c: At top level:
+../Keypad_Prog.c:47: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'H_KeyPad_U8_KeyPadRead'
+make: *** [Keypad_Prog.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:48:40 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../DIO_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_Prog.d" -MT"DIO_Prog.o" -c -o "DIO_Prog.o" "../DIO_Prog.c"
+Finished building: ../DIO_Prog.c
+ 
+Building file: ../Keypad_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Keypad_Prog.d" -MT"Keypad_Prog.o" -c -o "Keypad_Prog.o" "../Keypad_Prog.c"
+In file included from ../Keypad_Prog.c:12:
+../Keypad_Interface.h:10:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../Keypad_Interface.h:15,
+                 from ../Keypad_Prog.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Keypad_Prog.c
+ 
+Building file: ../LCD_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"LCD_Prog.d" -MT"LCD_Prog.o" -c -o "LCD_Prog.o" "../LCD_Prog.c"
+In file included from ../LCD_Prog.c:12:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../LCD_Prog.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../LCD_Prog.c
+ 
+Building file: ../RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_Prog.d" -MT"RTC_Prog.o" -c -o "RTC_Prog.o" "../RTC_Prog.c"
+Finished building: ../RTC_Prog.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:13: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:16: error: invalid initializer
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:48:59 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:13: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./Keypad_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10882 bytes (66.4% Full)
+(.text + .data + .bootloader)
+
+Data:         30 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:49:12 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../I2C_Driver/I2C_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"I2C_Driver/I2C_Prog.d" -MT"I2C_Driver/I2C_Prog.o" -c -o "I2C_Driver/I2C_Prog.o" "../I2C_Driver/I2C_Prog.c"
+../I2C_Driver/I2C_Prog.c:12:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+Finished building: ../I2C_Driver/I2C_Prog.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./Keypad_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10882 bytes (66.4% Full)
+(.text + .data + .bootloader)
+
+Data:         30 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:49:43 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../DIO_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_Prog.d" -MT"DIO_Prog.o" -c -o "DIO_Prog.o" "../DIO_Prog.c"
+Finished building: ../DIO_Prog.c
+ 
+Building file: ../LCD_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"LCD_Prog.d" -MT"LCD_Prog.o" -c -o "LCD_Prog.o" "../LCD_Prog.c"
+In file included from ../LCD_Prog.c:12:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../LCD_Prog.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../LCD_Prog.c
+ 
+Building file: ../RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_Prog.d" -MT"RTC_Prog.o" -c -o "RTC_Prog.o" "../RTC_Prog.c"
+Finished building: ../RTC_Prog.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:13: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10122 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:49:57 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:13: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10122 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:50:15 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../LCD_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"LCD_Prog.d" -MT"LCD_Prog.o" -c -o "LCD_Prog.o" "../LCD_Prog.c"
+In file included from ../LCD_Prog.c:12:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../LCD_Prog.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../LCD_Prog.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:13: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10122 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:50:45 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:13: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:30: warning: 'return' with a value, in function returning void
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10122 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:50:54 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:13: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10122 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:51:02 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10122 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:51:44 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../LCD_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"LCD_Prog.d" -MT"LCD_Prog.o" -c -o "LCD_Prog.o" "../LCD_Prog.c"
+In file included from ../LCD_Prog.c:12:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../LCD_Prog.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../LCD_Prog.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10122 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:55:02 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10122 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:56:25 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10122 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:56:55 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10122 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:59:43 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_Prog.d" -MT"RTC_Prog.o" -c -o "RTC_Prog.o" "../RTC_Prog.c"
+Finished building: ../RTC_Prog.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10138 bytes (61.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:03:51 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_Prog.d" -MT"RTC_Prog.o" -c -o "RTC_Prog.o" "../RTC_Prog.c"
+Finished building: ../RTC_Prog.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10124 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:04:21 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10124 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:06:26 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10232 bytes (62.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:08:00 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10232 bytes (62.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:08:21 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10232 bytes (62.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:09:27 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10124 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:09:42 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10124 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:10:33 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10128 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:14:36 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_Prog.d" -MT"RTC_Prog.o" -c -o "RTC_Prog.o" "../RTC_Prog.c"
+Finished building: ../RTC_Prog.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10128 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:17:03 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10128 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:17:20 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10128 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:17:32 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10128 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:20:11 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_Prog.d" -MT"RTC_Prog.o" -c -o "RTC_Prog.o" "../RTC_Prog.c"
+Finished building: ../RTC_Prog.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10128 bytes (61.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:20:23 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10236 bytes (62.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:21:46 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10236 bytes (62.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:30:18 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_Prog.d" -MT"RTC_Prog.o" -c -o "RTC_Prog.o" "../RTC_Prog.c"
+Finished building: ../RTC_Prog.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:39: error: too few arguments to function 'H_Lcd_Void_LCDWriteNumber'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:30:30 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10286 bytes (62.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:32:03 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10286 bytes (62.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:39:30 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:36:28: warning: character constant too long for its type
+../main.c: In function 'main':
+../main.c:36: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' makes pointer from integer without a cast
+../main.c:37: error: break statement not within loop or switch
+../main.c:38: error: case label not within a switch statement
+../main.c:39:28: warning: character constant too long for its type
+../main.c:39: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' makes pointer from integer without a cast
+../main.c:40: error: break statement not within loop or switch
+../main.c:15: warning: unused variable 'day_str'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:39:49 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:37:28: warning: character constant too long for its type
+../main.c: In function 'main':
+../main.c:37: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' makes pointer from integer without a cast
+../main.c:40:28: warning: character constant too long for its type
+../main.c:40: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' makes pointer from integer without a cast
+../main.c:15: warning: unused variable 'day_str'
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10324 bytes (63.0% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:41:10 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:37: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' from incompatible pointer type
+../main.c:40: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' from incompatible pointer type
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10396 bytes (63.5% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (2.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:42:40 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:15: warning: initialization from incompatible pointer type
+../main.c:37: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' makes pointer from integer without a cast
+../main.c:40: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' makes pointer from integer without a cast
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10416 bytes (63.6% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (2.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:43:16 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:16: warning: assignment from incompatible pointer type
+../main.c:38: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' from incompatible pointer type
+../main.c:41: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' from incompatible pointer type
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10404 bytes (63.5% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (2.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:44:13 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:16: warning: assignment from incompatible pointer type
+../main.c:38: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' from incompatible pointer type
+../main.c:41: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' from incompatible pointer type
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10404 bytes (63.5% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (2.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:44:33 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:16: warning: assignment from incompatible pointer type
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10404 bytes (63.5% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (2.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:45:18 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:16: warning: assignment from incompatible pointer type
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10404 bytes (63.5% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (2.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:49:08 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_Prog.d" -MT"RTC_Prog.o" -c -o "RTC_Prog.o" "../RTC_Prog.c"
+Finished building: ../RTC_Prog.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:14: warning: unused variable 'str'
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+./main.o: In function `main':
+../main.c:14: multiple definition of `RTC_Day_str_display'
+./RTC_Prog.o:../RTC_Prog.c:19: first defined here
+make: *** [RTC.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:49:21 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+./main.o: In function `main':
+../main.c:14: multiple definition of `RTC_Day_str_display'
+./RTC_Prog.o:../RTC_Prog.c:19: first defined here
+make: *** [RTC.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:50:24 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_Prog.d" -MT"RTC_Prog.o" -c -o "RTC_Prog.o" "../RTC_Prog.c"
+Finished building: ../RTC_Prog.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+./main.o: In function `main':
+../main.c:14: multiple definition of `RTC_Day_str_display'
+./RTC_Prog.o:../RTC_Prog.c:18: first defined here
+make: *** [RTC.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:51:02 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+./main.o: In function `main':
+../main.c:14: multiple definition of `RTC_Day_str_display'
+./RTC_Prog.o:../RTC_Prog.c:18: first defined here
+make: *** [RTC.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:51:50 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:32: error: expected expression before ']' token
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:51:55 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:32: error: expected expression before ']' token
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:52:02 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:32: warning: passing argument 1 of 'H_Lcd_Void_LCDWriteString' makes pointer from integer without a cast
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+./main.o: In function `main':
+../main.c:14: multiple definition of `RTC_Day_str_display'
+./RTC_Prog.o:../RTC_Prog.c:18: first defined here
+make: *** [RTC.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:52:11 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+./main.o: In function `main':
+../main.c:14: multiple definition of `RTC_Day_str_display'
+./RTC_Prog.o:../RTC_Prog.c:18: first defined here
+make: *** [RTC.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:53:39 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+./main.o: In function `main':
+../main.c:18: multiple definition of `RTC_Day_str_display'
+./RTC_Prog.o:../RTC_Prog.c:18: first defined here
+make: *** [RTC.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:54:08 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_Prog.d" -MT"RTC_Prog.o" -c -o "RTC_Prog.o" "../RTC_Prog.c"
+Finished building: ../RTC_Prog.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+./main.o: In function `main':
+../main.c:18: multiple definition of `RTC_Day_str_display'
+./RTC_Prog.o:../RTC_Prog.c:21: first defined here
+make: *** [RTC.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:55:12 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+./main.o: In function `main':
+../main.c:13: multiple definition of `RTC_Day_str_display'
+./RTC_Prog.o:../RTC_Prog.c:21: first defined here
+make: *** [RTC.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:56:30 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_Prog.d" -MT"RTC_Prog.o" -c -o "RTC_Prog.o" "../RTC_Prog.c"
+Finished building: ../RTC_Prog.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10316 bytes (63.0% Full)
+(.text + .data + .bootloader)
+
+Data:         36 bytes (3.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:57:08 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10296 bytes (62.8% Full)
+(.text + .data + .bootloader)
+
+Data:         36 bytes (3.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:57:35 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10304 bytes (62.9% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:21:00 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10374 bytes (63.3% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:21:36 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10382 bytes (63.4% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:22:39 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10382 bytes (63.4% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:24:43 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:18: error: expected declaration specifiers before 'RTC_Init'
+../main.c:19: error: expected declaration specifiers before 'H_Lcd_Void_LCDInit'
+../main.c:20: error: expected declaration specifiers before 'H_Lcd_Void_LCDClear'
+../main.c:22: error: expected declaration specifiers before 'RTC_Set_Time'
+../main.c:23: error: expected declaration specifiers before 'RTC_Set_Date'
+../main.c:25: error: expected declaration specifiers before 'RTC_Get_Time'
+../main.c:26: error: expected declaration specifiers before 'RTC_Get_Date'
+../main.c:28: error: expected declaration specifiers before 'APP_RTC_Display_Time_and_Date'
+../main.c:30: error: expected declaration specifiers before 'while'
+../main.c:34: error: expected declaration specifiers before 'return'
+../main.c:35: error: expected declaration specifiers before '}' token
+../main.c:37: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+../main.c:55: error: old-style parameter declarations in prototyped function definition
+../main.c:54: error: expected '{' at end of input
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:24:55 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:18: error: expected declaration specifiers before 'RTC_Init'
+../main.c:19: error: expected declaration specifiers before 'H_Lcd_Void_LCDInit'
+../main.c:20: error: expected declaration specifiers before 'H_Lcd_Void_LCDClear'
+../main.c:25: error: expected declaration specifiers before 'RTC_Get_Time'
+../main.c:26: error: expected declaration specifiers before 'RTC_Get_Date'
+../main.c:28: error: expected declaration specifiers before 'APP_RTC_Display_Time_and_Date'
+../main.c:30: error: expected declaration specifiers before 'while'
+../main.c:34: error: expected declaration specifiers before 'return'
+../main.c:35: error: expected declaration specifiers before '}' token
+../main.c:37: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+../main.c:55: error: old-style parameter declarations in prototyped function definition
+../main.c:54: error: expected '{' at end of input
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:25:28 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10294 bytes (62.8% Full)
+(.text + .data + .bootloader)
+
+Data:         36 bytes (3.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:27:24 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10382 bytes (63.4% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:27:45 **** Incremental Build of configuration Debug for project RTC ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+../LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../LCD_Interface.h:17,
+                 from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: RTC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC.map -mmcu=atmega16 -o "RTC.elf"  ./I2C_Driver/I2C_Prog.o  ./DIO_Prog.o ./LCD_Prog.o ./RTC_Prog.o ./main.o   
+Finished building target: RTC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC.elf  >"RTC.lss"
+Finished building: RTC.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC.elf  "RTC.hex"
+Finished building: RTC.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10294 bytes (62.8% Full)
+(.text + .data + .bootloader)
+
+Data:         36 bytes (3.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:35:41 **** Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+../RTC_APP/main.c:9:23: error: RTC_Inter.h: No such file or directory
+../RTC_APP/main.c:10:27: error: LCD_Interface.h: No such file or directory
+../RTC_APP/main.c:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'RTC_Day_str_display'
+../RTC_APP/main.c:14: error: expected ')' before '*' token
+../RTC_APP/main.c: In function 'main':
+../RTC_APP/main.c:17: error: 'Date_And_Time' undeclared (first use in this function)
+../RTC_APP/main.c:17: error: (Each undeclared identifier is reported only once
+../RTC_APP/main.c:17: error: for each function it appears in.)
+../RTC_APP/main.c:17: error: expected ';' before 'Get_Date_Time'
+../RTC_APP/main.c:18: warning: implicit declaration of function 'RTC_Init'
+../RTC_APP/main.c:19: warning: implicit declaration of function 'H_Lcd_Void_LCDInit'
+../RTC_APP/main.c:20: warning: implicit declaration of function 'H_Lcd_Void_LCDClear'
+../RTC_APP/main.c:25: warning: implicit declaration of function 'RTC_Get_Time'
+../RTC_APP/main.c:25: error: 'Get_Date_Time' undeclared (first use in this function)
+../RTC_APP/main.c:26: warning: implicit declaration of function 'RTC_Get_Date'
+../RTC_APP/main.c:28: warning: implicit declaration of function 'APP_RTC_Display_Time_and_Date'
+../RTC_APP/main.c: At top level:
+../RTC_APP/main.c:36: error: expected ')' before '*' token
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:36:21 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+../RTC_APP/main.c:9:39: error: ../MACL/RTC_APP/RTC_Inter.h: No such file or directory
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+../RTC_APP/../HAL/LCD/LCD_Interface.h:15:17: error: STD.h: No such file or directory
+../RTC_APP/../HAL/LCD/LCD_Interface.h:16:27: error: DIO_Interface.h: No such file or directory
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:23: warning: parameter names (without types) in function declaration
+../RTC_APP/../HAL/LCD/LCD_Interface.h:24: warning: parameter names (without types) in function declaration
+../RTC_APP/../HAL/LCD/LCD_Interface.h:25: error: expected ')' before '*' token
+../RTC_APP/../HAL/LCD/LCD_Interface.h:27: warning: parameter names (without types) in function declaration
+../RTC_APP/../HAL/LCD/LCD_Interface.h:28: warning: parameter names (without types) in function declaration
+../RTC_APP/main.c:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'RTC_Day_str_display'
+../RTC_APP/main.c:14: error: expected ')' before '*' token
+../RTC_APP/main.c: In function 'main':
+../RTC_APP/main.c:17: error: 'Date_And_Time' undeclared (first use in this function)
+../RTC_APP/main.c:17: error: (Each undeclared identifier is reported only once
+../RTC_APP/main.c:17: error: for each function it appears in.)
+../RTC_APP/main.c:17: error: expected ';' before 'Get_Date_Time'
+../RTC_APP/main.c:18: warning: implicit declaration of function 'RTC_Init'
+../RTC_APP/main.c:25: warning: implicit declaration of function 'RTC_Get_Time'
+../RTC_APP/main.c:25: error: 'Get_Date_Time' undeclared (first use in this function)
+../RTC_APP/main.c:26: warning: implicit declaration of function 'RTC_Get_Date'
+../RTC_APP/main.c:28: warning: implicit declaration of function 'APP_RTC_Display_Time_and_Date'
+../RTC_APP/main.c: At top level:
+../RTC_APP/main.c:36: error: expected ')' before '*' token
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:36:39 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+../RTC_APP/main.c:9:38: error: ../HAL/RTC_APP/RTC_Inter.h: No such file or directory
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+../RTC_APP/../HAL/LCD/LCD_Interface.h:15:17: error: STD.h: No such file or directory
+../RTC_APP/../HAL/LCD/LCD_Interface.h:16:27: error: DIO_Interface.h: No such file or directory
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:23: warning: parameter names (without types) in function declaration
+../RTC_APP/../HAL/LCD/LCD_Interface.h:24: warning: parameter names (without types) in function declaration
+../RTC_APP/../HAL/LCD/LCD_Interface.h:25: error: expected ')' before '*' token
+../RTC_APP/../HAL/LCD/LCD_Interface.h:27: warning: parameter names (without types) in function declaration
+../RTC_APP/../HAL/LCD/LCD_Interface.h:28: warning: parameter names (without types) in function declaration
+../RTC_APP/main.c:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'RTC_Day_str_display'
+../RTC_APP/main.c:14: error: expected ')' before '*' token
+../RTC_APP/main.c: In function 'main':
+../RTC_APP/main.c:17: error: 'Date_And_Time' undeclared (first use in this function)
+../RTC_APP/main.c:17: error: (Each undeclared identifier is reported only once
+../RTC_APP/main.c:17: error: for each function it appears in.)
+../RTC_APP/main.c:17: error: expected ';' before 'Get_Date_Time'
+../RTC_APP/main.c:18: warning: implicit declaration of function 'RTC_Init'
+../RTC_APP/main.c:25: warning: implicit declaration of function 'RTC_Get_Time'
+../RTC_APP/main.c:25: error: 'Get_Date_Time' undeclared (first use in this function)
+../RTC_APP/main.c:26: warning: implicit declaration of function 'RTC_Get_Date'
+../RTC_APP/main.c:28: warning: implicit declaration of function 'APP_RTC_Display_Time_and_Date'
+../RTC_APP/main.c: At top level:
+../RTC_APP/main.c:36: error: expected ')' before '*' token
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:37:57 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+../RTC_APP/main.c:9:38: error: ../HAL/RTC_APP/RTC_Inter.h: No such file or directory
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+../RTC_APP/../HAL/LCD/LCD_Interface.h:15:17: error: STD.h: No such file or directory
+../RTC_APP/../HAL/LCD/LCD_Interface.h:16:27: error: DIO_Interface.h: No such file or directory
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:23: warning: parameter names (without types) in function declaration
+../RTC_APP/../HAL/LCD/LCD_Interface.h:24: warning: parameter names (without types) in function declaration
+../RTC_APP/../HAL/LCD/LCD_Interface.h:25: error: expected ')' before '*' token
+../RTC_APP/../HAL/LCD/LCD_Interface.h:27: warning: parameter names (without types) in function declaration
+../RTC_APP/../HAL/LCD/LCD_Interface.h:28: warning: parameter names (without types) in function declaration
+../RTC_APP/main.c:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'RTC_Day_str_display'
+../RTC_APP/main.c:14: error: expected ')' before '*' token
+../RTC_APP/main.c: In function 'main':
+../RTC_APP/main.c:17: error: 'Date_And_Time' undeclared (first use in this function)
+../RTC_APP/main.c:17: error: (Each undeclared identifier is reported only once
+../RTC_APP/main.c:17: error: for each function it appears in.)
+../RTC_APP/main.c:17: error: expected ';' before 'Get_Date_Time'
+../RTC_APP/main.c:18: warning: implicit declaration of function 'RTC_Init'
+../RTC_APP/main.c:25: warning: implicit declaration of function 'RTC_Get_Time'
+../RTC_APP/main.c:25: error: 'Get_Date_Time' undeclared (first use in this function)
+../RTC_APP/main.c:26: warning: implicit declaration of function 'RTC_Get_Date'
+../RTC_APP/main.c:28: warning: implicit declaration of function 'APP_RTC_Display_Time_and_Date'
+../RTC_APP/main.c: At top level:
+../RTC_APP/main.c:36: error: expected ')' before '*' token
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:38:27 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+../RTC_APP/main.c:9:38: error: ../HAL/RTC_APP/RTC_Inter.h: No such file or directory
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../RTC_APP/main.c:14: error: expected ')' before '*' token
+../RTC_APP/main.c: In function 'main':
+../RTC_APP/main.c:17: error: 'Date_And_Time' undeclared (first use in this function)
+../RTC_APP/main.c:17: error: (Each undeclared identifier is reported only once
+../RTC_APP/main.c:17: error: for each function it appears in.)
+../RTC_APP/main.c:17: error: expected ';' before 'Get_Date_Time'
+../RTC_APP/main.c:18: warning: implicit declaration of function 'RTC_Init'
+../RTC_APP/main.c:25: warning: implicit declaration of function 'RTC_Get_Time'
+../RTC_APP/main.c:25: error: 'Get_Date_Time' undeclared (first use in this function)
+../RTC_APP/main.c:26: warning: implicit declaration of function 'RTC_Get_Date'
+../RTC_APP/main.c:28: warning: implicit declaration of function 'APP_RTC_Display_Time_and_Date'
+../RTC_APP/main.c: At top level:
+../RTC_APP/main.c:36: error: expected ')' before '*' token
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:39:17 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+../RTC_APP/main.c:9:38: error: ../HAL/RTC_APP/RTC_Inter.h: No such file or directory
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../RTC_APP/main.c:14: error: expected ')' before '*' token
+../RTC_APP/main.c: In function 'main':
+../RTC_APP/main.c:17: error: 'Date_And_Time' undeclared (first use in this function)
+../RTC_APP/main.c:17: error: (Each undeclared identifier is reported only once
+../RTC_APP/main.c:17: error: for each function it appears in.)
+../RTC_APP/main.c:17: error: expected ';' before 'Get_Date_Time'
+../RTC_APP/main.c:18: warning: implicit declaration of function 'RTC_Init'
+../RTC_APP/main.c:25: warning: implicit declaration of function 'RTC_Get_Time'
+../RTC_APP/main.c:25: error: 'Get_Date_Time' undeclared (first use in this function)
+../RTC_APP/main.c:26: warning: implicit declaration of function 'RTC_Get_Date'
+../RTC_APP/main.c:28: warning: implicit declaration of function 'APP_RTC_Display_Time_and_Date'
+../RTC_APP/main.c: At top level:
+../RTC_APP/main.c:36: error: expected ')' before '*' token
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:39:30 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+../RTC_APP/main.c:9:38: error: ../HAL/RTC_APP/RTC_Inter.h: No such file or directory
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../RTC_APP/main.c:14: error: expected ')' before '*' token
+../RTC_APP/main.c: In function 'main':
+../RTC_APP/main.c:17: error: 'Date_And_Time' undeclared (first use in this function)
+../RTC_APP/main.c:17: error: (Each undeclared identifier is reported only once
+../RTC_APP/main.c:17: error: for each function it appears in.)
+../RTC_APP/main.c:17: error: expected ';' before 'Get_Date_Time'
+../RTC_APP/main.c:18: warning: implicit declaration of function 'RTC_Init'
+../RTC_APP/main.c:25: warning: implicit declaration of function 'RTC_Get_Time'
+../RTC_APP/main.c:25: error: 'Get_Date_Time' undeclared (first use in this function)
+../RTC_APP/main.c:26: warning: implicit declaration of function 'RTC_Get_Date'
+../RTC_APP/main.c:28: warning: implicit declaration of function 'APP_RTC_Display_Time_and_Date'
+../RTC_APP/main.c: At top level:
+../RTC_APP/main.c:36: error: expected ')' before '*' token
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:40:02 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/../HAL/RTC/RTC_Inter.h:16,
+                 from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:11:20: error: ../STD.h: No such file or directory
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:12:24: error: ../BITMATH.h: No such file or directory
+In file included from ../RTC_APP/../HAL/RTC/RTC_Inter.h:16,
+                 from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Start'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:17: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_SendSlaveAddressWithWrite'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:18: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Repeated_Start'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_SendSlaveAddressWithRead'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Write'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_ReadWithAck'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_ReadWithNack'
+In file included from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/RTC_Inter.h:36: error: expected specifier-qualifier-list before 'u8'
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../RTC_APP/main.c: In function 'APP_RTC_Display_Time_and_Date':
+../RTC_APP/main.c:39: error: 'Date_And_Time' has no member named 'hours'
+../RTC_APP/main.c:41: error: 'Date_And_Time' has no member named 'min'
+../RTC_APP/main.c:43: error: 'Date_And_Time' has no member named 'sec'
+../RTC_APP/main.c:46: error: 'Date_And_Time' has no member named 'day'
+../RTC_APP/main.c:48: error: 'Date_And_Time' has no member named 'date'
+../RTC_APP/main.c:50: error: 'Date_And_Time' has no member named 'month'
+../RTC_APP/main.c:53: error: 'Date_And_Time' has no member named 'year'
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:42:48 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/../HAL/RTC/RTC_Inter.h:16,
+                 from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:11:20: error: ../STD.h: No such file or directory
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:12:24: error: ../BITMATH.h: No such file or directory
+In file included from ../RTC_APP/../HAL/RTC/RTC_Inter.h:16,
+                 from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Start'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:17: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_SendSlaveAddressWithWrite'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:18: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Repeated_Start'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_SendSlaveAddressWithRead'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_Write'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_ReadWithAck'
+../RTC_APP/../HAL/RTC/../../MACL/I2C/I2C_Interface.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'M_U8_I2C_ReadWithNack'
+In file included from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/RTC_Inter.h:36: error: expected specifier-qualifier-list before 'u8'
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../RTC_APP/main.c: In function 'main':
+../RTC_APP/main.c:16: warning: excess elements in struct initializer
+../RTC_APP/main.c:16: warning: (near initialization for 'Current_Date_And_Time')
+../RTC_APP/main.c:16: warning: excess elements in struct initializer
+../RTC_APP/main.c:16: warning: (near initialization for 'Current_Date_And_Time')
+../RTC_APP/main.c:16: warning: excess elements in struct initializer
+../RTC_APP/main.c:16: warning: (near initialization for 'Current_Date_And_Time')
+../RTC_APP/main.c:16: warning: excess elements in struct initializer
+../RTC_APP/main.c:16: warning: (near initialization for 'Current_Date_And_Time')
+../RTC_APP/main.c:16: warning: excess elements in struct initializer
+../RTC_APP/main.c:16: warning: (near initialization for 'Current_Date_And_Time')
+../RTC_APP/main.c:16: warning: excess elements in struct initializer
+../RTC_APP/main.c:16: warning: (near initialization for 'Current_Date_And_Time')
+../RTC_APP/main.c:16: warning: excess elements in struct initializer
+../RTC_APP/main.c:16: warning: (near initialization for 'Current_Date_And_Time')
+../RTC_APP/main.c: In function 'APP_RTC_Display_Time_and_Date':
+../RTC_APP/main.c:39: error: 'Date_And_Time' has no member named 'hours'
+../RTC_APP/main.c:41: error: 'Date_And_Time' has no member named 'min'
+../RTC_APP/main.c:43: error: 'Date_And_Time' has no member named 'sec'
+../RTC_APP/main.c:46: error: 'Date_And_Time' has no member named 'day'
+../RTC_APP/main.c:48: error: 'Date_And_Time' has no member named 'date'
+../RTC_APP/main.c:50: error: 'Date_And_Time' has no member named 'month'
+../RTC_APP/main.c:53: error: 'Date_And_Time' has no member named 'year'
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:44:37 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../RTC_APP/main.c
+ 
+Building file: ../MACL/I2C/I2C_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MACL/I2C/I2C_Prog.d" -MT"MACL/I2C/I2C_Prog.o" -c -o "MACL/I2C/I2C_Prog.o" "../MACL/I2C/I2C_Prog.c"
+In file included from ../MACL/I2C/I2C_Prog.c:9:
+../MACL/I2C/I2C_Private.h:11:20: error: ../STD.h: No such file or directory
+../MACL/I2C/I2C_Private.h:12:24: error: ../BITMATH.h: No such file or directory
+../MACL/I2C/I2C_Prog.c:12:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+make: *** [MACL/I2C/I2C_Prog.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:44:56 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../MACL/I2C/I2C_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MACL/I2C/I2C_Prog.d" -MT"MACL/I2C/I2C_Prog.o" -c -o "MACL/I2C/I2C_Prog.o" "../MACL/I2C/I2C_Prog.c"
+In file included from ../MACL/I2C/I2C_Prog.c:9:
+../MACL/I2C/I2C_Private.h:11:20: error: ../STD.h: No such file or directory
+../MACL/I2C/I2C_Private.h:12:24: error: ../BITMATH.h: No such file or directory
+../MACL/I2C/I2C_Prog.c:12:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+make: *** [MACL/I2C/I2C_Prog.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:45:01 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../MACL/I2C/I2C_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MACL/I2C/I2C_Prog.d" -MT"MACL/I2C/I2C_Prog.o" -c -o "MACL/I2C/I2C_Prog.o" "../MACL/I2C/I2C_Prog.c"
+In file included from ../MACL/I2C/I2C_Prog.c:9:
+../MACL/I2C/I2C_Private.h:11:20: error: ../STD.h: No such file or directory
+../MACL/I2C/I2C_Private.h:12:24: error: ../BitMath.h: No such file or directory
+../MACL/I2C/I2C_Prog.c:12:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+make: *** [MACL/I2C/I2C_Prog.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:45:12 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../MACL/I2C/I2C_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MACL/I2C/I2C_Prog.d" -MT"MACL/I2C/I2C_Prog.o" -c -o "MACL/I2C/I2C_Prog.o" "../MACL/I2C/I2C_Prog.c"
+../MACL/I2C/I2C_Prog.c:12:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+Finished building: ../MACL/I2C/I2C_Prog.c
+ 
+Building file: ../MACL/DIO/DIO_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MACL/DIO/DIO_Prog.d" -MT"MACL/DIO/DIO_Prog.o" -c -o "MACL/DIO/DIO_Prog.o" "../MACL/DIO/DIO_Prog.c"
+Finished building: ../MACL/DIO/DIO_Prog.c
+ 
+Building file: ../HAL/RTC/RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"HAL/RTC/RTC_Prog.d" -MT"HAL/RTC/RTC_Prog.o" -c -o "HAL/RTC/RTC_Prog.o" "../HAL/RTC/RTC_Prog.c"
+Finished building: ../HAL/RTC/RTC_Prog.c
+ 
+Building file: ../HAL/LCD/LCD_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"HAL/LCD/LCD_Prog.d" -MT"HAL/LCD/LCD_Prog.o" -c -o "HAL/LCD/LCD_Prog.o" "../HAL/LCD/LCD_Prog.c"
+In file included from ../HAL/LCD/LCD_Prog.c:12:
+../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../HAL/LCD/LCD_Interface.h:17,
+                 from ../HAL/LCD/LCD_Prog.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../HAL/LCD/LCD_Prog.c
+ 
+Building target: RTC_Driver_test.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC_Driver_test.map -mmcu=atmega16 -o "RTC_Driver_test.elf"  ./RTC_APP/main.o  ./MACL/I2C/I2C_Prog.o  ./MACL/DIO/DIO_Prog.o  ./HAL/RTC/RTC_Prog.o  ./HAL/LCD/LCD_Prog.o   
+Finished building target: RTC_Driver_test.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC_Driver_test.elf  >"RTC_Driver_test.lss"
+Finished building: RTC_Driver_test.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC_Driver_test.elf  "RTC_Driver_test.hex"
+Finished building: RTC_Driver_test.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC_Driver_test.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10382 bytes (63.4% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:11:57 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../RTC_APP/main.c
+ 
+Building file: ../HAL/RTC/RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"HAL/RTC/RTC_Prog.d" -MT"HAL/RTC/RTC_Prog.o" -c -o "HAL/RTC/RTC_Prog.o" "../HAL/RTC/RTC_Prog.c"
+Finished building: ../HAL/RTC/RTC_Prog.c
+ 
+Building target: RTC_Driver_test.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC_Driver_test.map -mmcu=atmega16 -o "RTC_Driver_test.elf"  ./RTC_APP/main.o  ./MACL/I2C/I2C_Prog.o  ./MACL/DIO/DIO_Prog.o  ./HAL/RTC/RTC_Prog.o  ./HAL/LCD/LCD_Prog.o   
+./HAL/RTC/RTC_Prog.o: In function `RTC_Init':
+../HAL/RTC/RTC_Prog.c:17: multiple definition of `RTC_Day_str_display'
+./RTC_APP/main.o:../RTC_APP/main.c:15: first defined here
+make: *** [RTC_Driver_test.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:12:08 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../RTC_APP/main.c:12: error: redefinition of 'RTC_Day_str_display'
+../RTC_APP/../HAL/RTC/RTC_Inter.h:46: error: previous definition of 'RTC_Day_str_display' was here
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:12:18 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../RTC_APP/main.c:12: error: redefinition of 'RTC_Day_str_display'
+../RTC_APP/../HAL/RTC/RTC_Inter.h:46: error: previous definition of 'RTC_Day_str_display' was here
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:12:30 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../RTC_APP/main.c
+ 
+Building file: ../HAL/RTC/RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"HAL/RTC/RTC_Prog.d" -MT"HAL/RTC/RTC_Prog.o" -c -o "HAL/RTC/RTC_Prog.o" "../HAL/RTC/RTC_Prog.c"
+Finished building: ../HAL/RTC/RTC_Prog.c
+ 
+Building target: RTC_Driver_test.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC_Driver_test.map -mmcu=atmega16 -o "RTC_Driver_test.elf"  ./RTC_APP/main.o  ./MACL/I2C/I2C_Prog.o  ./MACL/DIO/DIO_Prog.o  ./HAL/RTC/RTC_Prog.o  ./HAL/LCD/LCD_Prog.o   
+Finished building target: RTC_Driver_test.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC_Driver_test.elf  >"RTC_Driver_test.lss"
+Finished building: RTC_Driver_test.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC_Driver_test.elf  "RTC_Driver_test.hex"
+Finished building: RTC_Driver_test.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC_Driver_test.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10382 bytes (63.4% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:13:31 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/RTC_Inter.h:45: warning: 'RTC_Day_str_display' initialized and declared 'extern'
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../RTC_APP/main.c:12: error: redefinition of 'RTC_Day_str_display'
+../RTC_APP/../HAL/RTC/RTC_Inter.h:45: error: previous definition of 'RTC_Day_str_display' was here
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:13:34 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/RTC_Inter.h:45: warning: 'RTC_Day_str_display' initialized and declared 'extern'
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../RTC_APP/main.c
+ 
+Building file: ../HAL/RTC/RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"HAL/RTC/RTC_Prog.d" -MT"HAL/RTC/RTC_Prog.o" -c -o "HAL/RTC/RTC_Prog.o" "../HAL/RTC/RTC_Prog.c"
+In file included from ../HAL/RTC/RTC_Prog.c:14:
+../HAL/RTC/RTC_Inter.h:45: warning: 'RTC_Day_str_display' initialized and declared 'extern'
+Finished building: ../HAL/RTC/RTC_Prog.c
+ 
+Building target: RTC_Driver_test.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC_Driver_test.map -mmcu=atmega16 -o "RTC_Driver_test.elf"  ./RTC_APP/main.o  ./MACL/I2C/I2C_Prog.o  ./MACL/DIO/DIO_Prog.o  ./HAL/RTC/RTC_Prog.o  ./HAL/LCD/LCD_Prog.o   
+./HAL/RTC/RTC_Prog.o: In function `RTC_Init':
+../HAL/RTC/RTC_Prog.c:17: multiple definition of `RTC_Day_str_display'
+./RTC_APP/main.o:../RTC_APP/main.c:15: first defined here
+make: *** [RTC_Driver_test.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:14:10 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/RTC_Inter.h:45: warning: 'RTC_Day_str_display' initialized and declared 'extern'
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../RTC_APP/main.c
+ 
+Building target: RTC_Driver_test.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC_Driver_test.map -mmcu=atmega16 -o "RTC_Driver_test.elf"  ./RTC_APP/main.o  ./MACL/I2C/I2C_Prog.o  ./MACL/DIO/DIO_Prog.o  ./HAL/RTC/RTC_Prog.o  ./HAL/LCD/LCD_Prog.o   
+./HAL/RTC/RTC_Prog.o: In function `RTC_Init':
+../HAL/RTC/RTC_Prog.c:17: multiple definition of `RTC_Day_str_display'
+./RTC_APP/main.o:../RTC_APP/main.c:16: first defined here
+make: *** [RTC_Driver_test.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:14:14 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/RTC_Inter.h:45: warning: 'RTC_Day_str_display' initialized and declared 'extern'
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../RTC_APP/main.c:12: error: redefinition of 'RTC_Day_str_display'
+../RTC_APP/../HAL/RTC/RTC_Inter.h:45: error: previous definition of 'RTC_Day_str_display' was here
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:14:17 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/RTC_Inter.h:45: warning: 'RTC_Day_str_display' initialized and declared 'extern'
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../RTC_APP/main.c:12: error: redefinition of 'RTC_Day_str_display'
+../RTC_APP/../HAL/RTC/RTC_Inter.h:45: error: previous definition of 'RTC_Day_str_display' was here
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:14:44 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/RTC_Inter.h:45: warning: 'RTC_Day_str_display' initialized and declared 'extern'
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../RTC_APP/main.c:12: error: redefinition of 'RTC_Day_str_display'
+../RTC_APP/../HAL/RTC/RTC_Inter.h:45: error: previous definition of 'RTC_Day_str_display' was here
+make: *** [RTC_APP/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:14:48 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:9:
+../RTC_APP/../HAL/RTC/RTC_Inter.h:45: warning: 'RTC_Day_str_display' initialized and declared 'extern'
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../RTC_APP/main.c
+ 
+Building file: ../HAL/RTC/RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"HAL/RTC/RTC_Prog.d" -MT"HAL/RTC/RTC_Prog.o" -c -o "HAL/RTC/RTC_Prog.o" "../HAL/RTC/RTC_Prog.c"
+In file included from ../HAL/RTC/RTC_Prog.c:14:
+../HAL/RTC/RTC_Inter.h:45: warning: 'RTC_Day_str_display' initialized and declared 'extern'
+../HAL/RTC/RTC_Prog.c:16: error: redefinition of 'RTC_Day_str_display'
+../HAL/RTC/RTC_Inter.h:45: error: previous definition of 'RTC_Day_str_display' was here
+make: *** [HAL/RTC/RTC_Prog.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:15:08 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../RTC_APP/main.c
+ 
+Building file: ../HAL/RTC/RTC_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"HAL/RTC/RTC_Prog.d" -MT"HAL/RTC/RTC_Prog.o" -c -o "HAL/RTC/RTC_Prog.o" "../HAL/RTC/RTC_Prog.c"
+Finished building: ../HAL/RTC/RTC_Prog.c
+ 
+Building target: RTC_Driver_test.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC_Driver_test.map -mmcu=atmega16 -o "RTC_Driver_test.elf"  ./RTC_APP/main.o  ./MACL/I2C/I2C_Prog.o  ./MACL/DIO/DIO_Prog.o  ./HAL/RTC/RTC_Prog.o  ./HAL/LCD/LCD_Prog.o   
+Finished building target: RTC_Driver_test.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC_Driver_test.elf  >"RTC_Driver_test.lss"
+Finished building: RTC_Driver_test.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC_Driver_test.elf  "RTC_Driver_test.hex"
+Finished building: RTC_Driver_test.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC_Driver_test.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10382 bytes (63.4% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:15:21 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC_Driver_test.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10382 bytes (63.4% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:16:29 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../RTC_APP/main.c
+ 
+Building target: RTC_Driver_test.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC_Driver_test.map -mmcu=atmega16 -o "RTC_Driver_test.elf"  ./RTC_APP/main.o  ./MACL/I2C/I2C_Prog.o  ./MACL/DIO/DIO_Prog.o  ./HAL/RTC/RTC_Prog.o  ./HAL/LCD/LCD_Prog.o   
+Finished building target: RTC_Driver_test.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC_Driver_test.elf  >"RTC_Driver_test.lss"
+Finished building: RTC_Driver_test.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC_Driver_test.elf  "RTC_Driver_test.hex"
+Finished building: RTC_Driver_test.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC_Driver_test.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10382 bytes (63.4% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

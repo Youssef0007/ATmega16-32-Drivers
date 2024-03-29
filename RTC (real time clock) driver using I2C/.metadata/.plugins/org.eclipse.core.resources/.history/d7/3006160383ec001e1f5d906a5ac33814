@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: Mar 27, 2024
+ *      Author: Sigma
+ */
+
+
+#include "RTC_Inter.h"
+#include "LCD_Interface.h"
+
+
+void main (void)
+{
+	RTC_Init();
+	H_Lcd_Void_LCDInit();
+ while(1)
+ {
+
+ }
+}

@@ -1,0 +1,44 @@
+15:16:29 **** Incremental Build of configuration Debug for project RTC_Driver_test ****
+make all 
+Building file: ../RTC_APP/main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"RTC_APP/main.d" -MT"RTC_APP/main.o" -c -o "RTC_APP/main.o" "../RTC_APP/main.c"
+In file included from ../RTC_APP/main.c:10:
+../RTC_APP/../HAL/LCD/LCD_Interface.h:14:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../RTC_APP/../HAL/LCD/LCD_Interface.h:17,
+                 from ../RTC_APP/main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../RTC_APP/main.c
+ 
+Building target: RTC_Driver_test.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,RTC_Driver_test.map -mmcu=atmega16 -o "RTC_Driver_test.elf"  ./RTC_APP/main.o  ./MACL/I2C/I2C_Prog.o  ./MACL/DIO/DIO_Prog.o  ./HAL/RTC/RTC_Prog.o  ./HAL/LCD/LCD_Prog.o   
+Finished building target: RTC_Driver_test.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S RTC_Driver_test.elf  >"RTC_Driver_test.lss"
+Finished building: RTC_Driver_test.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex RTC_Driver_test.elf  "RTC_Driver_test.hex"
+Finished building: RTC_Driver_test.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 RTC_Driver_test.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10382 bytes (63.4% Full)
+(.text + .data + .bootloader)
+
+Data:         44 bytes (4.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+15:16:30 Build Finished. 0 errors, 2 warnings. (took 619ms)
+

@@ -1,0 +1,54 @@
+/*
+ * main.c
+ *
+ *  Created on: Mar 27, 2024
+ *      Author: Sigma
+ */
+
+
+#include "RTC_Inter.h"
+#include "LCD_Interface.h"
+
+
+
+u8 RTC_Day_str_display[7][4]={"SAT","SUN","MON","TUE","WEN","THU","FRI"};
+
+void APP_RTC_Display Time_and_Date(Date_And_Time *ptr);
+int main(void)
+{	Date_And_Time Current_Date_And_Time={35,44,12,1,8,12,24};
+	Date_And_Time Get_Date_Time;
+	RTC_Init();
+	H_Lcd_Void_LCDInit();
+	H_Lcd_Void_LCDClear();
+
+	RTC_Set_Time(&Current_Date_And_Time);
+	RTC_Set_Date(&Current_Date_And_Time);
+
+	RTC_Get_Time(&Get_Date_Time);
+	RTC_Get_Date(&Get_Date_Time);
+
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.hours);
+	H_Lcd_Void_LCDWriteCharacter(':');
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.min);
+	H_Lcd_Void_LCDWriteCharacter(':');
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.sec);
+	H_Lcd_Void_LCDGoTo(1,0);
+	//H_Lcd_Void_LCDWriteNumber(Get_Date_Time.date);
+	H_Lcd_Void_LCDWriteString(RTC_Day_str_display[Get_Date_Time.day]);
+	H_Lcd_Void_LCDWriteCharacter(' ');
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.date);
+	H_Lcd_Void_LCDWriteCharacter('/');
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.month);
+	H_Lcd_Void_LCDWriteCharacter('/');
+	H_Lcd_Void_LCDWriteNumber(20);
+	H_Lcd_Void_LCDWriteNumber(Get_Date_Time.year);
+ while(1)
+ {
+
+ }
+ return 0;
+}
+void APP_RTC_Display Time_and_Date(Date_And_Time *ptr)
+{
+
+}
