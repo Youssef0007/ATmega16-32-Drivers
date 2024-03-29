@@ -1,0 +1,25 @@
+#include "UART_Interface.h"
+#include "LCD/LCD_Interface.h"
+//#include "util/delay.h"
+#include "avr/io.h"
+void APP_void_display(u8 received_byte);
+int main(void)
+{
+	u8 Str[20];
+	u8 data;
+
+	/* Initialize the UART driver with Baud-rate = 9600 bits/sec */
+	UART_init(9600);
+
+    while(1)
+    {
+		data = UART_recieveByte(); /* Receive Byte from Terminal1 */
+		UART_sendByte(data);       /* Re-send the received byte to Terminal2 */
+		//UART_receiveString(Str);     /* Receive String from Terminal */
+	    //UART_sendString(Str);        /* Re-send the string to Terminal2 */
+    }
+}
+}
+void APP_void_display(u8 received_byte){
+	H_Lcd_Void_LCDWriteCharacter(received_byte);
+}

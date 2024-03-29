@@ -1,0 +1,14 @@
+/*
+ * UART_Config.h
+ *
+ *  Created on: Mar 19, 2024
+ *      Author: tarek
+ */
+
+#ifndef UART_CONFIG_H_
+#define UART_CONFIG_H_
+
+Uart_ConfigType g_UartMc1 ={_8_BITS,_1_BIT,DISABLED,9600};
+
+
+#endif /* UART_CONFIG_H_ */

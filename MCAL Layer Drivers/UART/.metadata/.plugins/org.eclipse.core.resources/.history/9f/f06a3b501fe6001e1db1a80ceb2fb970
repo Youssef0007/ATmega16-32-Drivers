@@ -1,0 +1,22 @@
+/*
+ * UART_Config.h
+ *
+ *  Created on: Mar 19, 2024
+ *      Author: tarek
+ */
+
+#ifndef UART_CONFIG_H_
+#define UART_CONFIG_H_
+
+#define BAUDRATE 9600
+
+
+#define	FRAME_BITS	_8_BITS_DATA_MODE
+
+#define STOP_BIT	STOP_BIT_SINGLE
+
+#define WORDLENGTH 8
+#define PARITYBITS 0
+#define STOPBITS 1
+
+#endif /* UART_CONFIG_H_ */

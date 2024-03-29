@@ -1,0 +1,569 @@
+11:21:21 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8750 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:31:46 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8758 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:38:30 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8770 bytes (26.8% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:39:47 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8770 bytes (26.8% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:40:19 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8770 bytes (26.8% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:30:38 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8762 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:41:15 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8748 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:43:39 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8754 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:47:01 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8746 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:50:08 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8762 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:50:46 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8762 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:51:32 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8762 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:56:09 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8762 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:05:34 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8762 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:05:55 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:6:31: error: DIO/DIO_Interface.h: No such file or directory
+../main.c: In function 'main':
+../main.c:12: warning: implicit declaration of function 'M_DIO_Void_SetPinDirection'
+../main.c:12: error: 'PD1_PIN' undeclared (first use in this function)
+../main.c:12: error: (Each undeclared identifier is reported only once
+../main.c:12: error: for each function it appears in.)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:06:03 **** Clean-only build of configuration Debug for project UART_Driver ****
+make clean 
+rm -rf  UART_Driver.hex  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o  sizedummy  UART_Driver.lss  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.d  ./UART.d ./main.d  UART_Driver.elf
+ 
+17:06:03 **** Incremental Build of configuration Debug for project UART_Driver ****
+make all 
+Building file: ../LCD/LCD_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"LCD/LCD_Prog.d" -MT"LCD/LCD_Prog.o" -c -o "LCD/LCD_Prog.o" "../LCD/LCD_Prog.c"
+In file included from ../LCD/LCD_Prog.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../LCD/LCD_Prog.c
+ 
+Building file: ../DIO/DIO_Prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO/DIO_Prog.d" -MT"DIO/DIO_Prog.o" -c -o "DIO/DIO_Prog.o" "../DIO/DIO_Prog.c"
+Finished building: ../DIO/DIO_Prog.c
+ 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -c -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building file: ../UART.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"UART.d" -MT"UART.o" -c -o "UART.o" "../UART.c"
+Finished building: ../UART.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: UART_Driver.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,UART_Driver.map -mmcu=atmega32 -o "UART_Driver.elf"  ./LCD/LCD_Prog.o  ./DIO/DIO_Prog.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./UART.o ./main.o   
+Finished building target: UART_Driver.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S UART_Driver.elf  >"UART_Driver.lss"
+Finished building: UART_Driver.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex UART_Driver.elf  "UART_Driver.hex"
+Finished building: UART_Driver.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 UART_Driver.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8762 bytes (26.7% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

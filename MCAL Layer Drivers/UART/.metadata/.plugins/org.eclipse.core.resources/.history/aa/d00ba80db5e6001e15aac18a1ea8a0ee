@@ -1,0 +1,31 @@
+#include "UART_Interface.h"
+#include "LCD/LCD_Interface.h"
+#include "util/delay.h"
+#include "avr/io.h"
+void APP_void_display(u8 received_byte);
+int main(void)
+{	// u8 str [] = "UART DONE";
+	H_Lcd_Void_LCDInit();
+	UART_Init();
+	// SREG |= (1<<7);
+	// UART_receiveByteAsynchCallBack(APP_void_display);
+	UART_sendByte('X');
+	//UART_sendString(str);
+	u8 tarek='T';
+	H_Lcd_Void_LCDWriteCharacter(tarek);
+	tarek='Y';
+	H_Lcd_Void_LCDWriteCharacter(tarek);
+
+	//tarek=UART_receiveByteSynch();
+
+	H_Lcd_Void_LCDWriteCharacter(UART_receiveByteSynch());\
+
+	H_Lcd_Void_LCDWriteCharacter('S');
+	while (1)
+    {
+		/**/
+    }
+}
+void APP_void_display(u8 received_byte){
+	H_Lcd_Void_LCDWriteCharacter(received_byte);
+}

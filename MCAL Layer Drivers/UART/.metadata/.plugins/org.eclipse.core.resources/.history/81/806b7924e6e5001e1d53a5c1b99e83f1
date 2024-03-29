@@ -1,0 +1,21 @@
+/*
+ * UART_Config.h
+ *
+ *  Created on: Mar 19, 2024
+ *      Author: tarek
+ */
+
+#ifndef UART_CONFIG_H_
+#define UART_CONFIG_H_
+
+/*creating a variable from defined structure with the desired configuration
+ * Uart_characterSize= 8 bits
+ * Uart_stopBit= 1 bit
+ *  no parity
+ *  baudRate=9600 bit per second*/
+
+
+Uart_ConfigType g_UartMc1 ={_8_BITS,_1_BIT,DISABLED,9600};
+
+
+#endif /* UART_CONFIG_H_ */

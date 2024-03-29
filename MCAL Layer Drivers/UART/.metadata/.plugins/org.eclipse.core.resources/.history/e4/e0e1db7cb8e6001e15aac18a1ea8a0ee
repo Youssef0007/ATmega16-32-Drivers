@@ -1,0 +1,30 @@
+/******************************************************************************
+ *
+ * Module: UART
+ *
+ * File Name: UART_Interface.h
+ *
+ * Description: interfacing header file for the UART AVR driver
+ *
+ * Author: Youssef Abdelaziz
+ *
+ *******************************************************************************/
+
+
+#ifndef UART_INTERFACE_H_
+#define UART_INTERFACE_H_
+
+#include "STD.h"
+#include "BitMath.h"
+#include "UART_Config.h"
+#include "UART_Private.h"
+
+#define INTERRUPT_MODE 1
+#define POLLING_MODE 0
+void UART_Init(void);
+void UART_sendByte(u8);
+void UART_sendString(const u8* Str_To_Send);
+void UART_receiveString(u8* Str_Received);
+u8 UART_receiveByteSynch(void);
+void UART_receiveByteAsynchCallBack(void(*Copy_Ptr)(u8));
+#endif /* UART_INTERFACE_H_ */
